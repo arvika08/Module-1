@@ -1,31 +1,48 @@
-## Experiment No: 1d – Conditional Statements- Checking Vowel or not
+## Experiment No: 1d – Conditional Statements- python program to find the largest among three Integer  Number.
 
 ## AIM  
-To Write a Python program to check whether the given character is a vowel or not using if..else statement
+To Write a Python program to find the largest among three integer number.
 ## ALGORITHM  
-1. Begin the program.  
-2. Take a character input from the user
-3. Convert the character to lowercase
-4. Check if the lowercase character is one of the vowels: 'a', 'e', 'i', 'o', 'u'
-5. If it is a vowel, display "The given character is a vowel"
-6. Otherwise, display "The given character is NOT a vowel"
-4. Terminate the program.
+Start
 
+Read integer a from the user
+
+Read integer b from the user
+
+Read integer c from the user
+
+If a is greater than both b and c, then
+→ Print that a is the largest
+
+Else if b is greater than both a and c, then
+→ Print that b is the largest
+
+Else
+→ Print that c is the largest
+
+End
 ## PROGRAM
-```python
-# Reg.No-
-# Name-
-# Write your code here
+a=int(input())
 
-char = input("Enter a character: ")
-char_lower = char.lower()
+b=int(input())
 
-if char_lower in ['a', 'e', 'i', 'o', 'u']:
-    print("The given character is a vowel")
+c=int(input())
+
+if a>b and a>c:
+
+    print("The largest of the three a=",a,"b= c=",c,"is",a)
+    
+elif b>a and b>c:
+
+    print("The largest of the three a=",a,"b= c=",c,"is",b)
+    
 else:
-    print("The given character is NOT a vowel")
-```
 
+    print("The largest of the three a=",a,"b= c=",c,"is",c)
+    
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/f1d5be0d-e23b-40d3-9f13-7d5b2c1a4ae5)
 
 ## RESULT
+Thus,  python program to find the largest among three Integer number was successful.
+
